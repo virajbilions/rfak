@@ -24,14 +24,14 @@ const Footer = () => {
                             window.open("https://www.facebook.com/RFAKWorld?mibextid=LQQJ4d", "_blank")
                         }
                     />
-                    <img
+                    {/* <img
                         src="/assets/linkedin-icon.svg"
                         alt="linkedin-icon"
                         className="footer-img-icon"
                         onClick={() =>
                             window.open("https://www.facebook.com/RFAKWorld?mibextid=LQQJ4d", "_blank")
                         }
-                    />
+                    /> */}
                 </div>
             </div>
         </React.Fragment>

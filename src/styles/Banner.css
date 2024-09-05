@@ -4,3 +4,14 @@
   height: auto;
   display: block;
 }
+
+/* .banner-img {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../../public/assets/banner-bg.png");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+} */
