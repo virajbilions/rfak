@@ -14,11 +14,11 @@ const Sponsor = () => {
                         </Col>
                         <Col xs={12} sm={12} md={4} lg={4}>
                             <div className="sponsor-txt">Official Partner</div>
-                            <img src="" alt="" className="" />
+                            <img src="/assets/official.svg" alt="official" className="" />
                         </Col>
                         <Col xs={12} sm={12} md={4} lg={4}>
                             <div className="sponsor-txt">Media Partner</div>
-                            <img src="" alt="" className="" />
+                            <img src="/assets/media.svg" alt="media" className="" />
                         </Col>
                     </Row>
                 </Container>

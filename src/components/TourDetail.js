@@ -36,7 +36,7 @@ const TourDetail = () => {
                                     America
                                 </NavLink>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink
                                     className={classnames({ active: activeTab === "2" })}
                                     onClick={() => toggle("2")}
@@ -51,54 +51,12 @@ const TourDetail = () => {
                                 >
                                     Asia
                                 </NavLink>
-                            </NavItem>
+                            </NavItem> */}
                         </span>
                     </Nav>
 
                     <TabContent activeTab={activeTab}>
                         <TabPane tabId="1">
-                            <div className="tour-usa">USA TOUR 2024</div>
-                            <div className="tour-come-see">
-                                COME SEE US LIVE, IT'LL BE A GOOD TIME
-                            </div>
-                            <Row className="mt-5">
-                                {usaTourData.map((item, index) => (
-                                    <React.Fragment key={index}>
-                                        <Col
-                                            xs={12}
-                                            sm={3}
-                                            md={3}
-                                            lg={3}
-                                            className="mb-2"
-                                            key={index + 1}
-                                        >
-                                            <div className="tour-item-bg">
-                                                <span className="tour-item-txt">{item?.date}</span>
-                                            </div>
-                                        </Col>
-                                        <Col xs={12} sm={7} md={7} lg={7} className="mb-2">
-                                            <div className="tour-item-bg d-flex justify-content-between">
-                                                <span className="tour-item-txt">{item?.place}</span>
-                                                <span className="tour-item-txt">{item?.city}</span>
-                                            </div>
-                                        </Col>
-                                        <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
-                                            <button
-                                                className="tour-item-btn"
-                                                onClick={() =>
-                                                    window.open(
-                                                        item?.url,
-                                                        "_blank"
-                                                    )
-                                                }
-                                            >
-                                                Buy Ticket
-                                            </button>
-                                        </Col>
-                                    </React.Fragment>
-                                ))}
-                            </Row>
-                            <br />
                             <div className="tour-usa">CANADA TOUR 2024</div>
                             <div className="tour-come-see">
                                 COME SEE US LIVE, IT'LL BE A GOOD TIME
@@ -118,10 +76,62 @@ const TourDetail = () => {
                                                 <span className="tour-item-txt">{item?.date}</span>
                                             </div>
                                         </Col>
-                                        <Col xs={12} sm={7} md={7} lg={7} className="mb-2">
-                                            <div className="tour-item-bg d-flex justify-content-between">
-                                                <span className="tour-item-txt">{item?.place}</span>
+                                        <Col xs={12} sm={3} md={3} lg={3} className="mb-2">
+                                            <div className="tour-item-bg">
                                                 <span className="tour-item-txt">{item?.city}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={4} md={4} lg={4} className="mb-2">
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.place}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
+                                            <button
+                                                className="tour-item-btn"
+                                                onClick={() =>
+                                                    window.open(
+                                                        item?.url,
+                                                        "_blank"
+                                                    )
+                                                }
+                                            >
+                                                Buy Ticket
+                                            </button>
+                                        </Col>
+                                    </React.Fragment>
+                                ))}
+                            </Row>
+
+                            <br />
+
+                            <div className="tour-usa">USA TOUR 2024</div>
+                            <div className="tour-come-see">
+                                COME SEE US LIVE, IT'LL BE A GOOD TIME
+                            </div>
+                            <Row className="mt-5">
+                                {usaTourData.map((item, index) => (
+                                    <React.Fragment key={index}>
+                                        <Col
+                                            xs={12}
+                                            sm={3}
+                                            md={3}
+                                            lg={3}
+                                            className="mb-2"
+                                            key={index + 1}
+                                        >
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.date}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={3} md={3} lg={3} className="mb-2">
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.city}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={4} md={4} lg={4} className="mb-2">
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.place}</span>
                                             </div>
                                         </Col>
                                         <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
