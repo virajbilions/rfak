@@ -1,0 +1,77 @@
+.about-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-txt-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-rfak {
+  color: #af782e;
+  font-family: "Barlow Condensed";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -1.28px;
+}
+
+.about-rahat {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about-txt-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .about-rfak {
+    font-size: 62px;
+  }
+
+  .about-rahat {
+    font-size: 22px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .about-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-txt-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .about-rfak {
+    font-size: 60px;
+  }
+
+  .about-rahat {
+    font-size: 20px;
+  }
+}

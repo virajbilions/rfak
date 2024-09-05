@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import Banner from "./components/Banner";
+import Sponsor from "./components/Sponsor";
+import TourDetail from "./components/TourDetail";
+import About from "./components/About";
+import Footer from "./components/Footer";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "reactstrap/lib";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <div className='app-bg'>
+        <Banner />
+        <Sponsor />
+        <TourDetail />
+        <About />
+        <Footer />
+      </div>
+    </React.Fragment>
   );
 }
 

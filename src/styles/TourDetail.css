@@ -1,0 +1,225 @@
+.touer-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tour-world {
+  color: #af782e;
+  font-family: "Barlow Condensed";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tour-come {
+  color: #e7decd;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+.tour-usa {
+  color: #af782e;
+  font-family: "Barlow Condensed";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+
+.tour-come-see {
+  color: #e7decd;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.tour-item-wraper {
+  display: flex;
+  margin-top: 24px;
+  flex-direction: column;
+  justify-content: start;
+
+  color: #e7decd;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tour-first-item {
+  align-self: stretch;
+  background-color: rgba(28, 28, 28, 1);
+  min-width: 240px;
+  gap: 8px;
+  width: 318px;
+  padding: 16px 32px;
+}
+
+.tour-item {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.tour-item-bg {
+  background-color: rgba(28, 28, 28, 1);
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.tour-item-txt {
+  color: #e7decd;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tour-item-btn {
+  padding: 16px 30px;
+  border: 1px solid #af782e;
+  background: none;
+  color: #e7decd;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tour-item-btn:hover {
+  background: #af782e;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  border: none !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  background-color: #000 !important;
+  border: none !important;
+}
+
+.tour-nav-wrapper {
+  border-radius: 4px;
+  background: #1c1c1c;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .tour-world {
+    font-size: 38px;
+  }
+
+  .tour-come {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    font-size: 22px !important;
+  }
+
+  .tour-usa {
+    font-size: 38px;
+  }
+
+  .tour-come-see {
+    font-size: 18px;
+  }
+
+  .tour-item-bg {
+    padding: 16px 28px;
+  }
+
+  .tour-item-txt {
+    font-size: 22px;
+  }
+
+  .tour-item-btn {
+    padding: 16px 28px;
+    font-size: 22px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .tour-world {
+    font-size: 36px;
+  }
+
+  .tour-come {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    font-size: 16px !important;
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    font-size: 16px !important;
+  }
+
+  .tour-usa {
+    font-size: 34px;
+  }
+
+  .tour-come-see {
+    font-size: 16px;
+  }
+
+  .tour-item-bg {
+    padding: 16px 26px;
+  }
+
+  .tour-item-txt {
+    font-size: 20px;
+  }
+
+  .tour-item-btn {
+    padding: 16px 26px;
+    font-size: 20px;
+  }
+}
