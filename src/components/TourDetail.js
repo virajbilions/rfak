@@ -33,7 +33,7 @@ const TourDetail = () => {
                                     className={classnames({ active: activeTab === "1" })}
                                     onClick={() => toggle("1")}
                                 >
-                                    America
+                                    North America
                                 </NavLink>
                             </NavItem>
                             {/* <NavItem>

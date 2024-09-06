@@ -6,7 +6,7 @@ const Footer = () => {
         <React.Fragment>
             <div className="footer-wrapper">
                 <div className="footer-contact">CONTACT</div>
-                <div className="footer-number">+1 987 654 3210</div>
+                <div className="footer-number">+1-510-677-2777</div>
                 <div className="footer-img-wrapper">
                     <img
                         src="/assets/instagram-icon.svg"
@@ -25,7 +25,7 @@ const Footer = () => {
                         }
                     />
                 </div>
-                <div className="footer-powered">Powered by Bilions</div>
+                {/* <div className="footer-powered">Powered by Bilions</div> */}
             </div>
         </React.Fragment>
     );

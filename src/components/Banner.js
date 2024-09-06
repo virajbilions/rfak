@@ -13,7 +13,7 @@ const Banner = () => {
             {/* <img src="/assets/banner-bg.jpg" alt="banner-bg" className="banner-img" /> */}
             <div className="banner-container">
                 <img src="/assets/banner-bg.jpg" alt="banner-bg" className="banner-img" />
-                <button className="banner-btn" onClick={scrollToElement}>TOUR TICKET</button>
+                <button className="banner-btn" onClick={scrollToElement}>BUY TICKETS</button>
             </div>
         </React.Fragment>
     );
