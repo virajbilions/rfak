@@ -3,7 +3,7 @@ import "../styles/Banner.css";
 
 const Banner = () => {
     const scrollToElement = () => {
-        const element = document.querySelector('.touer-wrapper');
+        const element = document.querySelector('.tour-usa');
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }

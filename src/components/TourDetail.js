@@ -99,6 +99,7 @@ const TourDetail = () => {
                                                 BUY TICKETS
                                             </button>
                                         </Col>
+                                        <hr class="custom-hr" />
                                     </React.Fragment>
                                 ))}
                             </Row>
@@ -147,6 +148,7 @@ const TourDetail = () => {
                                                 BUY TICKETS
                                             </button>
                                         </Col>
+                                        <hr class="custom-hr" />
                                     </React.Fragment>
                                 ))}
                             </Row>

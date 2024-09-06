@@ -14,7 +14,7 @@
 .banner-btn {
   position: absolute;
   top: 10%;
-  right: 5%;
+  right: -5%;
   transform: translate(-50%, -50%);
   padding: 16px 24px;
   background: #feb700;
@@ -33,4 +33,25 @@
   border: 1px solid #feb700;
   background: none;
   color: #e7decd;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .banner-btn {
+    position: absolute;
+    top: 20%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    background: #feb700;
+    color: #0d0d0d;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 18px;
+  }
 }
