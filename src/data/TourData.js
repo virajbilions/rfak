@@ -12,12 +12,6 @@ const usaTourData = [
         url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-washington-district-of-columbia-09-21-2024/event/150060B1C7C853D3",
     },
     {
-        date: "Sunday, 22 Sep",
-        city: "Lowell, MA",
-        place: "Lowell Memorial Auditorium",
-        url: "https://www.ticketmaster.com/event/Z7r9jZ1A7CkZZ",
-    },
-    {
         date: "Saturday, 28 Sep",
         city: "Atlanta, GA",
         place: "Coca-Cola Roxy",
@@ -83,19 +77,19 @@ const canadaTourData = [
     {
         date: "Sunday, 08 Sep",
         city: "Edmonton, AB, CA",
-        place: "NOW ARENA",
+        place: "Edmonton EXPO Centre",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-edmonton-alberta-09-08-2024/event/110060C4D24E41C4?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
     },
     {
         date: "Saturday, 14 Sep",
         city: "Toronto, ON, CA",
-        place: "CURTIS CULWELL CENTER",
+        place: "The Theatre at Great Canadian Casino Resort Toronto",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-the-legacy-toronto-ontario-09-14-2024/event/10006108EA076A4B?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
     },
     {
         date: "Sunday, 29 Sep",
         city: "Vancouver, BC, CA",
-        place: "ANGEL OF THE WINDS ARENA",
+        place: "Queen Elizabeth Theatre",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-live-in-vancouver-british-columbia-09-29-2024/event/1100611CE0544E1A?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
     },
 ];

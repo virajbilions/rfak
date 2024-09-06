@@ -66,7 +66,7 @@ const TourDetail = () => {
                                     <React.Fragment key={index}>
                                         <Col
                                             xs={12}
-                                            sm={3}
+                                            sm={12}
                                             md={3}
                                             lg={3}
                                             className="mb-2"
@@ -76,12 +76,12 @@ const TourDetail = () => {
                                                 <span className="tour-item-txt">{item?.date}</span>
                                             </div>
                                         </Col>
-                                        <Col xs={12} sm={3} md={3} lg={3} className="mb-2">
+                                        <Col xs={12} sm={12} md={3} lg={3} className="mb-2">
                                             <div className="tour-item-bg">
                                                 <span className="tour-item-txt">{item?.city}</span>
                                             </div>
                                         </Col>
-                                        <Col xs={12} sm={4} md={4} lg={4} className="mb-2">
+                                        <Col xs={12} sm={12} md={4} lg={4} className="mb-2">
                                             <div className="tour-item-bg">
                                                 <span className="tour-item-txt">{item?.place}</span>
                                             </div>
@@ -96,7 +96,7 @@ const TourDetail = () => {
                                                     )
                                                 }
                                             >
-                                                Buy Ticket
+                                                BUY TICKETS
                                             </button>
                                         </Col>
                                     </React.Fragment>
@@ -114,7 +114,7 @@ const TourDetail = () => {
                                     <React.Fragment key={index}>
                                         <Col
                                             xs={12}
-                                            sm={3}
+                                            sm={12}
                                             md={3}
                                             lg={3}
                                             className="mb-2"
@@ -124,12 +124,12 @@ const TourDetail = () => {
                                                 <span className="tour-item-txt">{item?.date}</span>
                                             </div>
                                         </Col>
-                                        <Col xs={12} sm={3} md={3} lg={3} className="mb-2">
+                                        <Col xs={12} sm={12} md={3} lg={3} className="mb-2">
                                             <div className="tour-item-bg">
                                                 <span className="tour-item-txt">{item?.city}</span>
                                             </div>
                                         </Col>
-                                        <Col xs={12} sm={4} md={4} lg={4} className="mb-2">
+                                        <Col xs={12} sm={12} md={4} lg={4} className="mb-2">
                                             <div className="tour-item-bg">
                                                 <span className="tour-item-txt">{item?.place}</span>
                                             </div>
@@ -144,7 +144,7 @@ const TourDetail = () => {
                                                     )
                                                 }
                                             >
-                                                Buy Ticket
+                                                BUY TICKETS
                                             </button>
                                         </Col>
                                     </React.Fragment>
