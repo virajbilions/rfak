@@ -21,7 +21,7 @@ const usaTourData = [
         date: "Friday, 04 Oct",
         city: "Oakland, CA",
         place: "Oakland Arena",
-        url: "https://concerts.livenation.com/the-legacy-of-khans-continues-with-atlanta-georgia-09-28-2024/event/0E00608AD2653B8C?_gl=1*722ls5*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.42442790.246295158.1725548090-1979697555.1725548089",
+        url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-oakland-california-10-04-2024/event/1C00606BC4417EB2",
     },
     {
         date: "Saturday, 05 Oct",
