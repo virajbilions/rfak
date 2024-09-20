@@ -106,10 +106,27 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 100%;
 }
 
 .tour-item-btn:hover {
   background: #af782e;
+}
+
+.tour-item-btn-sold {
+  padding: 16px 30px;
+  border: 1px solid #643030;
+  background: #643030 !important;
+  background: none;
+  color: #e7decd;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  cursor: not-allowed !important;
 }
 
 .nav-tabs {

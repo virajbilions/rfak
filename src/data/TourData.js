@@ -4,6 +4,7 @@ const usaTourData = [
         city: "Brookville, NY",
         place: "Tilles Center Concert Hall",
         url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-brookville-new-york-09-15-2024/event/000060F6A84F21E3",
+        soldOut: true
     },
     {
         date: "Saturday, 21 Sep",
@@ -21,7 +22,7 @@ const usaTourData = [
         date: "Friday, 04 Oct",
         city: "Oakland, CA",
         place: "Oakland Arena",
-        url: "https://concerts.livenation.com/the-legacy-of-khans-continues-with-atlanta-georgia-09-28-2024/event/0E00608AD2653B8C?_gl=1*722ls5*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.42442790.246295158.1725548090-1979697555.1725548089",
+        url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-oakland-california-10-04-2024/event/1C00606BC4417EB2",
     },
     {
         date: "Saturday, 05 Oct",
@@ -73,18 +74,21 @@ const canadaTourData = [
         city: "Calgary, AB, CA",
         place: "WinSport Event Centre",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-calgary-alberta-09-06-2024/event/110060B8D2EA44DC?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
     {
         date: "Sunday, 08 Sep",
         city: "Edmonton, AB, CA",
         place: "Edmonton EXPO Centre",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-edmonton-alberta-09-08-2024/event/110060C4D24E41C4?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
     {
         date: "Saturday, 14 Sep",
         city: "Toronto, ON, CA",
         place: "The Theatre at Great Canadian Casino Resort Toronto",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-the-legacy-toronto-ontario-09-14-2024/event/10006108EA076A4B?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
     {
         date: "Sunday, 29 Sep",
