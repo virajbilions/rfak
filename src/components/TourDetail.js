@@ -88,18 +88,18 @@ const TourDetail = () => {
                                         </Col>
                                         <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
                                             <button
-                                                className="tour-item-btn"
-                                                onClick={() =>
-                                                    window.open(
-                                                        item?.url,
-                                                        "_blank"
-                                                    )
+                                                className={item?.soldOut === true ? "tour-item-btn-sold" : "tour-item-btn"}
+                                                onClick={() => {
+                                                    if (!item?.soldOut) {
+                                                        window.open(item?.url, "_blank");
+                                                    }
+                                                }
                                                 }
                                             >
-                                                BUY TICKETS
+                                                {item?.soldOut === true ? "SOLD OUT" : "BUY TICKETS"}
                                             </button>
                                         </Col>
-                                        <hr class="custom-hr" />
+                                        <hr className="custom-hr" />
                                     </React.Fragment>
                                 ))}
                             </Row>
@@ -137,18 +137,18 @@ const TourDetail = () => {
                                         </Col>
                                         <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
                                             <button
-                                                className="tour-item-btn"
-                                                onClick={() =>
-                                                    window.open(
-                                                        item?.url,
-                                                        "_blank"
-                                                    )
+                                                className={item?.soldOut === true ? "tour-item-btn-sold" : "tour-item-btn"}
+                                                onClick={() => {
+                                                    if (!item?.soldOut) {
+                                                        window.open(item?.url, "_blank");
+                                                    }
+                                                }
                                                 }
                                             >
-                                                BUY TICKETS
+                                                {item?.soldOut === true ? "SOLD OUT" : "BUY TICKETS"}
                                             </button>
                                         </Col>
-                                        <hr class="custom-hr" />
+                                        <hr className="custom-hr" />
                                     </React.Fragment>
                                 ))}
                             </Row>
