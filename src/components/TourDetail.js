@@ -23,7 +23,7 @@ const TourDetail = () => {
     return (
         <React.Fragment>
             <div className="touer-wrapper">
-                <div className="tour-world">World Tour details</div>
+                <div className="tour-world">World Tour</div>
                 <div className="tour-come">COME SEE US LIVE, IT'LL BE A GOOD TIME</div>
                 <Container>
                     <Nav tabs pills className="justify-content-center mt-5 mb-5">
