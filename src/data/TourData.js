@@ -11,6 +11,7 @@ const usaTourData = [
         city: "Washington, DC",
         place: "DAR Constitution Hall",
         url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-washington-district-of-columbia-09-21-2024/event/150060B1C7C853D3",
+        soldOut: true
     },
     {
         date: "Saturday, 28 Sep",
