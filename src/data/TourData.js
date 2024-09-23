@@ -99,4 +99,21 @@ const canadaTourData = [
     },
 ];
 
-export { usaTourData, canadaTourData };
+const ukTourData = [
+    {
+        date: "Friday, 04 Apr",
+        city: "Birmingham, GB",
+        place: "bp plus LIVE",
+        url: "https://www.ticketmaster.co.uk/legacy-of-the-khans-ustad-rahat-birmingham-04-04-2025/event/230061348C2509F9",
+        time: "GENERAL ON SALE: 09/27/2024 , 10:00 AM GMT+1"
+    },
+    {
+        date: "Sunday, 6 Apr",
+        city: "Manchester, GB",
+        place: "AO, Arena",
+        url: "https://www.ticketmaster.co.uk/legacy-of-the-khans-ustad-rahat-manchester-06-04-2025/event/1F00612BAB99134E",
+        time: "PRESALE: 09/25/2024, 10:00 AM GMT+1"
+    },
+];
+
+export { usaTourData, canadaTourData, ukTourData };

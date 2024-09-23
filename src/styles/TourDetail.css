@@ -129,6 +129,25 @@
   cursor: not-allowed !important;
 }
 
+.tour-item-txt-time-bg {
+  border-radius: 4px;
+  background: var(--Light-Gold, #f2eadf);
+  padding: 8px 16px;
+  gap: 8px;
+  margin-bottom: 10px;
+  width: fit-content !important;
+}
+
+.tour-item-txt-time {
+  color: #ff4a1c;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
 .nav-tabs {
   border-bottom: none !important;
 }
@@ -160,8 +179,8 @@
 }
 
 /* hr {
-  margin: 0 !important;
-} */
+    margin: 0 !important;
+  } */
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {

@@ -10,7 +10,7 @@ import {
     Col,
 } from "reactstrap";
 import classnames from "classnames";
-import { canadaTourData, usaTourData } from "../data/TourData";
+import { canadaTourData, usaTourData, ukTourData } from "../data/TourData";
 import "../styles/TourDetail.css";
 
 const TourDetail = () => {
@@ -88,13 +88,16 @@ const TourDetail = () => {
                                         </Col>
                                         <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
                                             <button
-                                                className={item?.soldOut === true ? "tour-item-btn-sold" : "tour-item-btn"}
+                                                className={
+                                                    item?.soldOut === true
+                                                        ? "tour-item-btn-sold"
+                                                        : "tour-item-btn"
+                                                }
                                                 onClick={() => {
                                                     if (!item?.soldOut) {
                                                         window.open(item?.url, "_blank");
                                                     }
-                                                }
-                                                }
+                                                }}
                                             >
                                                 {item?.soldOut === true ? "SOLD OUT" : "BUY TICKETS"}
                                             </button>
@@ -137,13 +140,73 @@ const TourDetail = () => {
                                         </Col>
                                         <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
                                             <button
-                                                className={item?.soldOut === true ? "tour-item-btn-sold" : "tour-item-btn"}
+                                                className={
+                                                    item?.soldOut === true
+                                                        ? "tour-item-btn-sold"
+                                                        : "tour-item-btn"
+                                                }
                                                 onClick={() => {
                                                     if (!item?.soldOut) {
                                                         window.open(item?.url, "_blank");
                                                     }
+                                                }}
+                                            >
+                                                {item?.soldOut === true ? "SOLD OUT" : "BUY TICKETS"}
+                                            </button>
+                                        </Col>
+                                        <hr className="custom-hr" />
+                                    </React.Fragment>
+                                ))}
+                            </Row>
+
+                            <br />
+
+                            <div className="tour-usa">UK TOUR 2025</div>
+                            <div className="tour-come-see">
+                                COME SEE US LIVE, IT'LL BE A GOOD TIME
+                            </div>
+                            <Row className="mt-5">
+                                {ukTourData.map((item, index) => (
+                                    <React.Fragment key={index} >
+                                        <Col xs={12} sm={12} md={12} lg={12}>
+                                            <div className="tour-item-txt-time-bg">
+                                                <span className="tour-item-txt-time"> {item?.time}</span>
+                                            </div>
+                                        </Col>
+                                        <Col
+                                            xs={12}
+                                            sm={12}
+                                            md={3}
+                                            lg={3}
+                                            className="mb-2"
+                                            key={index + 1}
+                                        >
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.date}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={12} md={3} lg={3} className="mb-2">
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.city}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={12} md={4} lg={4} className="mb-2">
+                                            <div className="tour-item-bg">
+                                                <span className="tour-item-txt">{item?.place}</span>
+                                            </div>
+                                        </Col>
+                                        <Col xs={12} sm={2} md={2} lg={2} className="mb-2">
+                                            <button
+                                                className={
+                                                    item?.soldOut === true
+                                                        ? "tour-item-btn-sold"
+                                                        : "tour-item-btn"
                                                 }
-                                                }
+                                                onClick={() => {
+                                                    if (!item?.soldOut) {
+                                                        window.open(item?.url, "_blank");
+                                                    }
+                                                }}
                                             >
                                                 {item?.soldOut === true ? "SOLD OUT" : "BUY TICKETS"}
                                             </button>
