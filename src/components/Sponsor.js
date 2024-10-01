@@ -44,7 +44,7 @@ const Sponsor = () => {
                         </Col>
                         <Col xs={12} sm={12} md={3} lg={3}>
                             <div className="image-container">
-                                <img src="/assets/fm.png" alt="produced" />
+                                <img src="/assets/fm.svg" alt="produced" />
                             </div>
                         </Col>
                     </Row>
