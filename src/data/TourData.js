@@ -18,6 +18,7 @@ const usaTourData = [
         city: "Atlanta, GA",
         place: "Coca-Cola Roxy",
         url: "https://concerts.livenation.com/the-legacy-of-khans-continues-with-atlanta-georgia-09-28-2024/event/0E00608AD2653B8C?_gl=1*722ls5*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.42442790.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
     {
         date: "Friday, 04 Oct",
@@ -96,6 +97,7 @@ const canadaTourData = [
         city: "Vancouver, BC, CA",
         place: "Queen Elizabeth Theatre",
         url: "https://www.ticketmaster.ca/rahat-fateh-ali-khan-live-in-vancouver-british-columbia-09-29-2024/event/1100611CE0544E1A?_gl=1*rmrohh*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.49196069.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
 ];
 
@@ -105,14 +107,16 @@ const ukTourData = [
         city: "Birmingham, GB",
         place: "bp plus LIVE",
         url: "https://www.ticketmaster.co.uk/legacy-of-the-khans-ustad-rahat-birmingham-04-04-2025/event/230061348C2509F9",
-        time: "GENERAL ON SALE: 09/27/2024 , 10:00 AM GMT+1"
+        time: "GENERAL ON SALE: 09/27/2024 , 10:00 AM GMT+1",
+        soldOut: true
     },
     {
         date: "Sunday, 6 Apr",
         city: "Manchester, GB",
         place: "AO, Arena",
         url: "https://www.ticketmaster.co.uk/legacy-of-the-khans-ustad-rahat-manchester-06-04-2025/event/1F00612BAB99134E",
-        time: "PRESALE: 09/25/2024, 10:00 AM GMT+1"
+        time: "PRESALE: 09/25/2024, 10:00 AM GMT+1",
+        soldOut: true
     },
 ];
 
