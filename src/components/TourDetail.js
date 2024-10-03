@@ -168,11 +168,6 @@ const TourDetail = () => {
                             <Row className="mt-5">
                                 {ukTourData.map((item, index) => (
                                     <React.Fragment key={index} >
-                                        <Col xs={12} sm={12} md={12} lg={12}>
-                                            <div className="tour-item-txt-time-bg">
-                                                <span className="tour-item-txt-time"> {item?.time}</span>
-                                            </div>
-                                        </Col>
                                         <Col
                                             xs={12}
                                             sm={12}
