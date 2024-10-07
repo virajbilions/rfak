@@ -25,18 +25,21 @@ const usaTourData = [
         city: "Oakland, CA",
         place: "Oakland Arena",
         url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-oakland-california-10-04-2024/event/1C00606BC4417EB2",
+        soldOut: true
     },
     {
         date: "Saturday, 05 Oct",
         city: "Everett, WA",
         place: "Angel Of The Winds Arena",
         url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-everett-washington-10-05-2024/event/0F006102928B579C",
+        soldOut: true
     },
     {
         date: "Sunday, 06 Oct",
         city: "Chicago",
         place: "The Matrix Club",
         url: "https://events.sulekha.com/the-legacy-of-khans-rahat-fateh-ali-khan-live-in-chicago-2024_event-in_naperville-il_378344",
+        soldOut: true
     },
     {
         date: "Saturday, 12 Oct",
