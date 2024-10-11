@@ -112,7 +112,13 @@ const ukTourData = [
         url: "https://www.ticketmaster.co.uk/legacy-of-the-khans-ustad-rahat-birmingham-04-04-2025/event/230061348C2509F9",
     },
     {
-        date: "Sunday, 6 Apr",
+        date: "Saturday, 05 Apr",
+        city: "London, GB",
+        place: "OVO Arena, Wembley",
+        url: "https://www.ticketmaster.co.uk/legend-of-the-khans-london-05-04-2025/event/37006137D0AE73E2",
+    },
+    {
+        date: "Sunday, 06 Apr",
         city: "Manchester, GB",
         place: "AO, Arena",
         url: "https://www.ticketmaster.co.uk/legacy-of-the-khans-ustad-rahat-manchester-06-04-2025/event/1F00612BAB99134E",
