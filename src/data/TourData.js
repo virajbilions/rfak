@@ -46,12 +46,14 @@ const usaTourData = [
         city: "Atlantic City, NJ",
         place: "Hard Rock Live at Etess Arena",
         url: "https://www.ticketmaster.com/rahat-fateh-ali-khan-atlantic-city-new-jersey-10-12-2024/event/020060DBC84C834E",
+        soldOut: true
     },
     {
         date: "Sunday, 13 Oct",
         city: "Indianapolis, IN",
         place: "Old National Centre",
         url: "https://concerts.livenation.com/the-legacy-of-khans-continues-with-indianapolis-indiana-10-13-2024/event/050060F2CFF558DB?_gl=1*722ls5*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.42442790.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
     {
         date: "Friday, 18 Oct",
