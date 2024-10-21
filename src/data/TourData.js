@@ -60,18 +60,21 @@ const usaTourData = [
         city: "Houston, TX",
         place: "NRG Arena",
         url: "https://www.ticketmaster.com/the-legacy-of-khans-continues-houston-texas-10-18-2024/event/3A0060EBCCBF5F5B",
+        soldOut: true
     },
     {
         date: "Saturday, 19 Oct",
         city: "Irving, TX",
         place: "The Pavilion at Toyota Music Factory",
         url: "https://concerts.livenation.com/rahat-fateh-ali-khan-irving-texas-10-19-2024/event/0C0060999B8324E2?_gl=1*722ls5*_gcl_au*MTI3NTAzMzI0OC4xNzI1NTQ4MDg0*_ga*MTk3OTY5NzU1NS4xNzI1NTQ4MDg5*_ga_C1T806G4DF*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.*_ga_H1KKSGW33X*MTcyNTU1MTQ5OC4yLjEuMTcyNTU1Mjg0MC42MC4wLjA.&_ga=2.42442790.246295158.1725548090-1979697555.1725548089",
+        soldOut: true
     },
     {
         date: "Sunday, 20 Oct",
         city: "Hollywood, CA",
         place: "Dolby Theatre",
         url: "https://www.ticketmaster.com/the-legacy-of-khans-starring-rahat-hollywood-california-10-20-2024/event/09006091C5C73A56",
+        soldOut: true
     },
 ];
 
